@@ -3,53 +3,38 @@
 <head>
   <title>MznStudios</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1 style="font-family: Poppins;">MznStudios</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <ul>
+        <li><a href="/"><span style="color:red">Home</span></a></li>
+        <li><a href="/intro"><span style="color:blue">Intro</span></a></li>
+        <li><a href="/about-us"><span style="color:green">About Us</span></a></li>
+        <li><a href="/more"><span style="color:purple">More</span></a></li>
+      </ul>
+      <form action="/search" method="get">
+        <input type="text" name="q" placeholder="Search...">
+        <button type="submit">Search</button>
+      </form>
     </nav>
   </header>
-
   <main>
-    <section id="home">
-      <h2 style="font-family: Poppins; font-weight: bold;">Welcome to MznStudios</h2>
-      <p style="font-family: Poppins;">We are a software development company that specializes in creating custom software solutions for businesses of all sizes.</p>
-      <p style="font-family: Poppins; font-style: italic;">Our team of experienced developers has a proven track record of success. We are passionate about creating software that solves real problems.</p>
-      <p style="font-family: Poppins; font-weight: bold; text-decoration: underline;">If you are looking for a software development company that can help you achieve your goals, then please contact us today.</p>
-    </section>
-
-    <section id="about">
-      <h2 style="font-family: Poppins;">About Us</h2>
-      <p style="font-family: Poppins;">MznStudios was founded in 2023 by two software engineers with a shared passion for creating innovative and user-friendly software.</p>
-      <p style="font-family: Poppins;">Since then, we have helped hundreds of businesses of all sizes achieve their goals with our custom software solutions.</p>
-      <p style="font-family: Poppins;">We are committed to providing our clients with the highest quality of service and the most innovative software solutions.</p>
-    </section>
-
-    <section id="services">
-      <h2 style="font-family: Poppins;">Services</h2>
-      <ul style="font-family: Poppins;">
-        <li>Web development</li>
-        <li>Mobile app development</li>
-        <li>Enterprise software development</li>
-        <li>Data science</li>
-        <li>Machine learning</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2 style="font-family: Poppins;">Contact Us</h2>
-      <p style="font-family: Poppins;">To learn more about our services or to get a quote, please contact us at <a href="mailto:maazinkingmc@gmail.com">maazinkingmc@gmail.com</a>, <a href="https://wa.me/94789481495">+94789481495</a>, or call us at (555) 555-5555.</p>
-    </section>
+    <h1 style="font-family: sans-serif">MznStudios</h1>
+    <p>This is the website for MznStudios, a web development company.</p>
+    <p>We offer a variety of services, including web design, development, and hosting.</p>
+    <p>We are passionate about creating beautiful and functional websites that meet our clients' needs.</p>
+    <p>If you are looking for a web development company that can help you create a website that you love, then please contact us today.</p>
+    <h2>Developers</h2>
+    <ul>
+      <li>
+        <img src="https://avatars.githubusercontent.com/u/136259904?v=4" alt="Maazin King">
+        <div>
+          <h3>Maazin King</h3>
+          <span>CEO & Co-founder</span>
+        </div>
+      </li>
+    </ul>
   </main>
-
-  <footer>
-    <p style="font-family: Poppins;">Copyright &copy; 2023 MznStudios</p>
-  </footer>
 </body>
 </html>
